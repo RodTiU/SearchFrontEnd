@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header id="links">
+            <ul>
+                <li><a class="link" href="index.html">Back to Index</a></li>
+            </ul>
+        </header>
+        <form id="advanced" action="https://google.com/search">
+            <div id="advanced_title">
+                <h1>RodSearch</h1>
+                <h4>Advanced</h4>
+            </div>
+            <div class="advanced_inputs">
+                <div>
+                    <p>
+                        Search all these words
+                    </p>
+                    <input class="advanced_box" type="text" name="as_q" placeholder="Search all these words">
+                </div>
+                <div>
+                    <p>
+                        Search this exact word or phrase
+                    </p>
+                    <input class="advanced_box" type="text" name="as_epq" placeholder="Search all these words">
+                </div>
+                <div>
+                    <p>
+                        Search any of these words
+                    </p>
+                    <input class="advanced_box" type="text" name="as_oq" placeholder="Search any of these words">
+                </div>
+                <div>
+                    <p>
+                        Search none of these words
+                    </p>
+                    <input class="advanced_box" type="text" name="as_eq" placeholder="Search none of these words">
+                </div>
+                <input id="advanced_search" type="submit" value="Google Advanced Search">
+            </div>
+        </form>
+    </body>
+</html>
